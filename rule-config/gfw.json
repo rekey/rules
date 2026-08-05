@@ -1,7 +1,6 @@
 {
     "domain": [
-        "meta-rules-dat/geo/geosite/gfw.list",
-        "rule-custom/gfw/domain/*.list"
+        "meta-rules-dat/geo/geosite/gfw.list"
     ],
     "ip": [
         "rule-custom/gfw/ip/dns.text"

@@ -1,7 +1,8 @@
 {
     "domain": [
         "meta-rules-dat/geo/geosite/debian*.list",
-        "meta-rules-dat/geo/geosite/ubuntu*.list"
+        "meta-rules-dat/geo/geosite/ubuntu*.list",
+        "rule-custom/gfw/domain/*.list"
     ],
     "ip": [],
     "name": "gfw_custom"
