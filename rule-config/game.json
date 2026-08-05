@@ -1,0 +1,8 @@
+{
+    "domain": [
+        "meta-rules-dat/geo/geosite/tencent-games.list",
+        "meta-rules-dat/geo/geosite/steam*.list"
+    ],
+    "ip": [],
+    "name": "game"
+}

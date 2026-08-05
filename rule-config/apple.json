@@ -1,0 +1,10 @@
+{
+    "domain": [
+        "meta-rules-dat/geo/geosite/apple*.list",
+        "meta-rules-dat/geo/geosite/icloud*.list"
+    ],
+    "ip": [
+        "meta-rules-dat/geo-lite/geoip/apple.list"
+    ],
+    "name": "apple"
+}

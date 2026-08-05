@@ -1,0 +1,9 @@
+{
+    "domain": [
+        "meta-rules-dat/geo/geosite/cloudflare.list"
+    ],
+    "ip": [
+        "Iran-v2ray-rules/text/cloudflare.txt"
+    ],
+    "name": "cloudflare"
+}

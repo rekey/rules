@@ -1,0 +1,9 @@
+{
+    "domain": [
+        "meta-rules-dat/geo/geosite/microsoft*.list"
+    ],
+    "ip": [
+        "Iran-v2ray-rules/text/microsoft.txt"
+    ],
+    "name": "microsoft"
+}

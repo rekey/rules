@@ -1,0 +1,17 @@
+{
+    "domain": [
+        "meta-rules-dat/geo/geosite/boboporn.list",
+        "meta-rules-dat/geo/geosite/category-porn.list",
+        "meta-rules-dat/geo/geosite/cavporn.list",
+        "meta-rules-dat/geo/geosite/dmm-porn.list",
+        "meta-rules-dat/geo/geosite/mindgeek-porn.list",
+        "meta-rules-dat/geo/geosite/missav.list",
+        "meta-rules-dat/geo/geosite/pornhub.list",
+        "meta-rules-dat/geo/geosite/pornpros.list",
+        "meta-rules-dat/geo/geosite/theporndude.list",
+        "meta-rules-dat/geo/geosite/youporn.list",
+        "rule-custom/yellow/domain/custom.list"
+    ],
+    "ip": [],
+    "name": "yellow"
+}

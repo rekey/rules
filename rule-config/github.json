@@ -1,0 +1,13 @@
+{
+    "domain": [
+        "meta-rules-dat/geo/geosite/docker.list",
+        "meta-rules-dat/geo/geosite/git*.list",
+        "meta-rules-dat/geo/geosite/golang.list",
+        "meta-rules-dat/geo/geosite/nodejs.list",
+        "meta-rules-dat/geo/geosite/npmjs.list"
+    ],
+    "ip": [
+        "Iran-v2ray-rules/text/github.txt"
+    ],
+    "name": "github"
+}

@@ -1,0 +1,7 @@
+{
+    "domain": [],
+    "ip": [
+        "meta-rules-dat/geo/geoip/us.list"
+    ],
+    "name": "us"
+}

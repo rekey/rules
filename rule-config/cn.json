@@ -1,0 +1,19 @@
+{
+    "domain": [
+        "meta-rules-dat/geo/geosite/alibaba*.list",
+        "meta-rules-dat/geo/geosite/aliyun*.list",
+        "meta-rules-dat/geo/geosite/apple*.list",
+        "meta-rules-dat/geo/geosite/bilibili*.list",
+        "meta-rules-dat/geo/geosite/blizzard.list",
+        "meta-rules-dat/geo/geosite/cn.list",
+        "meta-rules-dat/geo/geosite/honor.list",
+        "meta-rules-dat/geo/geosite/huawei*.list",
+        "meta-rules-dat/geo/geosite/icloud*.list",
+        "meta-rules-dat/geo/geosite/netease*.list",
+        "rule-custom/cn/domain/custom.list"
+    ],
+    "ip": [
+        "meta-rules-dat/geo/geoip/cn.list"
+    ],
+    "name": "cn"
+}

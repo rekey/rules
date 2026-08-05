@@ -1,0 +1,12 @@
+{
+    "domain": [
+        "meta-rules-dat/geo/geosite/facebook-dev.list",
+        "meta-rules-dat/geo/geosite/facebook.list",
+        "meta-rules-dat/geo/geosite/twitter.list"
+    ],
+    "ip": [
+        "Iran-v2ray-rules/text/facebook.txt",
+        "Iran-v2ray-rules/text/twitter.txt"
+    ],
+    "name": "social"
+}

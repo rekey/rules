@@ -1,0 +1,11 @@
+{
+    "domain": [
+        "meta-rules-dat/geo/geosite/google*.list",
+        "meta-rules-dat/geo/geosite/youtube*.list",
+        "rule-custom/google/domain/custom.list"
+    ],
+    "ip": [
+        "Iran-v2ray-rules/text/google.txt"
+    ],
+    "name": "google"
+}

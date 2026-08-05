@@ -1,0 +1,8 @@
+{
+    "domain": [
+        "meta-rules-dat/geo/geosite/javdb.list",
+        "rule-custom/javdb/domain/custom.list"
+    ],
+    "ip": [],
+    "name": "javdb"
+}

@@ -1,0 +1,9 @@
+{
+    "domain": [
+        "meta-rules-dat/geo/geosite/private.list"
+    ],
+    "ip": [
+        "meta-rules-dat/geo/geoip/private.list"
+    ],
+    "name": "private"
+}

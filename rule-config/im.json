@@ -1,0 +1,13 @@
+{
+    "domain": [
+        "meta-rules-dat/geo/geosite/discord.list",
+        "meta-rules-dat/geo/geosite/line.list",
+        "meta-rules-dat/geo/geosite/signal.list",
+        "meta-rules-dat/geo/geosite/telegram.list",
+        "rule-custom/im/domain/ime.list"
+    ],
+    "ip": [
+        "Iran-v2ray-rules/text/telegram.txt"
+    ],
+    "name": "im"
+}

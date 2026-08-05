@@ -1,0 +1,7 @@
+{
+    "domain": [
+        "meta-rules-dat/geo/geosite/geolocation-!cn.list"
+    ],
+    "ip": [],
+    "name": "notcn"
+}

@@ -1,0 +1,9 @@
+{
+    "domain": [
+        "meta-rules-dat/geo/geosite/category-ads-all.list",
+        "meta-rules-dat/geo/geosite/category-ads-ir.list",
+        "meta-rules-dat/geo/geosite/category-ads.list"
+    ],
+    "ip": [],
+    "name": "ads"
+}
