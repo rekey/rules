@@ -1,0 +1,12 @@
+DOMAIN-SUFFIX,tiarap.org
+DOMAIN-SUFFIX,nextdns.io
+DOMAIN-SUFFIX,opendns.com
+DOMAIN-SUFFIX,dns.cloudflare.com
+DOMAIN-SUFFIX,dns.adguard-dns.com
+DOMAIN-SUFFIX,dns.quad9.net
+DOMAIN-SUFFIX,dns.google
+IP-CIDR,1.1.1.1/32
+IP-CIDR,8.8.8.8/32
+IP-CIDR,9.9.9.9/32
+IP-CIDR,94.140.14.140/32
+IP-CIDR,94.140.14.14/32
