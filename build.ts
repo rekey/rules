@@ -11,10 +11,12 @@ const ruleConfigPath = path.resolve(_dirname, './rule-config');
 const ruleDstPath = path.resolve(_dirname, './rule-dst');
 const ruleDstClashPath = path.resolve(ruleDstPath, 'clash');
 const ruleDstOxidnsPath = path.resolve(ruleDstPath, 'oxidns');
+const ruleDstSingPath = path.resolve(ruleDstPath, 'sing');
 
 await fs.mkdir(ruleDstPath, { recursive: true });
 await fs.mkdir(ruleDstClashPath, { recursive: true });
 await fs.mkdir(ruleDstOxidnsPath, { recursive: true });
+await fs.mkdir(ruleDstSingPath, { recursive: true });
 
 const ruleFiles = await list(ruleConfigPath);
 if (ruleFiles.length === 0) {
@@ -24,18 +26,34 @@ if (ruleFiles.length === 0) {
 
 const htmlClashItems: string[] = [];
 const htmlOxidnsItems: string[] = [];
+const htmlSingItems: string[] = [];
 
 for (const ruleFile of ruleFiles) {
     const ruleFilePath = path.resolve(ruleConfigPath, ruleFile);
     const data = await ruleFileToList(_dirname, ruleFilePath);
     const ruleClash: string[] = [];
     const ruleOxidns: string[] = [];
+    const ruleSingDomainSuffix: string[] = [];
+    const ruleSingIpCidr: string[] = [];
+    const ruleSing = {
+        version: 4,
+        rules: [
+            {
+                domain_suffix: ruleSingDomainSuffix,
+            },
+            {
+                ip_cidr: ruleSingIpCidr,
+            }
+        ]
+    };
     data.domains.forEach((domain) => {
         ruleClash.push(`DOMAIN-SUFFIX,${domain}`);
         ruleOxidns.push(`domain:${domain}`);
+        ruleSingDomainSuffix.push(domain);
     });
     data.ips.forEach((ip) => {
         ruleClash.push(`IP-CIDR,${ip}`);
+        ruleSingIpCidr.push(ip);
     });
     // clash
     const ruleDstClashFilePath = path.resolve(ruleDstClashPath, `${data.name}.list`);
@@ -45,6 +63,10 @@ for (const ruleFile of ruleFiles) {
     const ruleDstOxidnsFilePath = path.resolve(ruleDstOxidnsPath, `${data.name}.list`);
     await fs.writeFile(ruleDstOxidnsFilePath, ruleOxidns.join('\n'));
     htmlOxidnsItems.push(`    <li><a href="oxidns/${data.name}.list">${data.name}.list</a></li>`);
+    // sing
+    const ruleDstSingFilePath = path.resolve(ruleDstSingPath, `${data.name}.json`);
+    await fs.writeFile(ruleDstSingFilePath, JSON.stringify(ruleSing));
+    htmlSingItems.push(`    <li><a href="sing/${data.name}.json">${data.name}.json</a></li>`);
 }
 
 // 生成 Pages 目录页,便于像浏览仓库一样查看全部产物
@@ -63,6 +85,10 @@ const indexHtml = [
     '<h2>oxidns</h2>',
     '<ul>',
     ...htmlOxidnsItems,
+    '</ul>',
+    '<h2>sing</h2>',
+    '<ul>',
+    ...htmlSingItems,
     '</ul>',
     '</body>',
     '</html>',
