@@ -20,6 +20,8 @@ if (ruleFiles.length === 0) {
     Deno.exit(1);
 }
 
+const indexItems: string[] = [];
+
 for (const ruleFile of ruleFiles) {
     const ruleFilePath = path.resolve(ruleConfigPath, ruleFile);
     const data = await ruleFileToList(_dirname, ruleFilePath);
@@ -32,4 +34,23 @@ for (const ruleFile of ruleFiles) {
     });
     const ruleDstClashFilePath = path.resolve(ruleDstClashPath, `${data.name}.list`);
     await fs.writeFile(ruleDstClashFilePath, ruleClash.join('\n') + '\n');
+    indexItems.push(`    <li><a href="clash/${data.name}.list">${data.name}.list</a></li>`);
 }
+
+// 生成 Pages 目录页,便于像浏览仓库一样查看全部产物
+const indexHtml = [
+    '<!DOCTYPE html>',
+    '<html lang="zh">',
+    '<head>',
+    '<meta charset="utf-8">',
+    '<title>rules</title>',
+    '</head>',
+    '<body>',
+    '<h1>rules</h1>',
+    '<ul>',
+    ...indexItems,
+    '</ul>',
+    '</body>',
+    '</html>',
+].join('\n') + '\n';
+await fs.writeFile(path.resolve(ruleDstPath, 'index.html'), indexHtml);
