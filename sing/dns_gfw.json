@@ -1,0 +1,1 @@
+{"version":4,"rules":[{"domain_suffix":["tiarap.org","nextdns.io","opendns.com","dns.cloudflare.com","dns.adguard-dns.com","dns.quad9.net","dns.google"]},{"ip_cidr":["1.1.1.1/32","8.8.8.8/32","9.9.9.9/32","94.140.14.140/32","94.140.14.14/32"]}]}
