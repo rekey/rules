@@ -1,9 +1,0 @@
-{
-    "domain": [
-        "rule-custom/custom_dns_gfw/domain/custom.list"
-    ],
-    "ip": [
-        "rule-custom/custom_dns_gfw/ip/custom.list"
-    ],
-    "name": "custom_dns_gfw"
-}

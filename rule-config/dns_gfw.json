@@ -1,0 +1,9 @@
+{
+    "domain": [
+        "rule-custom/dns_gfw/domain/*.list"
+    ],
+    "ip": [
+        "rule-custom/dns_gfw/ip/*.list"
+    ],
+    "name": "dns_gfw"
+}

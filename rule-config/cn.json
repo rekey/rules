@@ -10,7 +10,7 @@
         "meta-rules-dat/geo/geosite/huawei*.list",
         "meta-rules-dat/geo/geosite/icloud*.list",
         "meta-rules-dat/geo/geosite/netease*.list",
-        "rule-custom/cn/domain/custom.list"
+        "rule-custom/cn/domain/*.list"
     ],
     "ip": [
         "meta-rules-dat/geo/geoip/cn.list"

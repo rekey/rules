@@ -1,9 +1,0 @@
-{
-    "domain": [
-        "rule-custom/custom_dns_cn/domain/custom.list"
-    ],
-    "ip": [
-        "rule-custom/custom_dns_cn/ip/custom.list"
-    ],
-    "name": "custom_dns_cn"
-}

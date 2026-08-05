@@ -1,0 +1,7 @@
+{
+    "domain": [
+        "rule-custom/coin/domain/coin.list"
+    ],
+    "ip": [],
+    "name": "coin"
+}

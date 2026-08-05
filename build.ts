@@ -10,9 +10,11 @@ const _dirname = import.meta.dirname || path.dirname(fromFileUrl(import.meta.url
 const ruleConfigPath = path.resolve(_dirname, './rule-config');
 const ruleDstPath = path.resolve(_dirname, './rule-dst');
 const ruleDstClashPath = path.resolve(ruleDstPath, 'clash');
+const ruleDstOxidnsPath = path.resolve(ruleDstPath, 'oxidns');
 
 await fs.mkdir(ruleDstPath, { recursive: true });
 await fs.mkdir(ruleDstClashPath, { recursive: true });
+await fs.mkdir(ruleDstOxidnsPath, { recursive: true });
 
 const ruleFiles = await list(ruleConfigPath);
 if (ruleFiles.length === 0) {
@@ -20,21 +22,29 @@ if (ruleFiles.length === 0) {
     Deno.exit(1);
 }
 
-const indexItems: string[] = [];
+const htmlClashItems: string[] = [];
+const htmlOxidnsItems: string[] = [];
 
 for (const ruleFile of ruleFiles) {
     const ruleFilePath = path.resolve(ruleConfigPath, ruleFile);
     const data = await ruleFileToList(_dirname, ruleFilePath);
     const ruleClash: string[] = [];
+    const ruleOxidns: string[] = [];
     data.domains.forEach((domain) => {
         ruleClash.push(`DOMAIN-SUFFIX,${domain}`);
+        ruleOxidns.push(`domain:${domain}`);
     });
     data.ips.forEach((ip) => {
         ruleClash.push(`IP-CIDR,${ip}`);
     });
+    // clash
     const ruleDstClashFilePath = path.resolve(ruleDstClashPath, `${data.name}.list`);
-    await fs.writeFile(ruleDstClashFilePath, ruleClash.join('\n') + '\n');
-    indexItems.push(`    <li><a href="clash/${data.name}.list">${data.name}.list</a></li>`);
+    await fs.writeFile(ruleDstClashFilePath, ruleClash.join('\n'));
+    htmlClashItems.push(`    <li><a href="clash/${data.name}.list">${data.name}.list</a></li>`);
+    // oxidns
+    const ruleDstOxidnsFilePath = path.resolve(ruleDstOxidnsPath, `${data.name}.list`);
+    await fs.writeFile(ruleDstOxidnsFilePath, ruleOxidns.join('\n'));
+    htmlOxidnsItems.push(`    <li><a href="oxidns/${data.name}.list">${data.name}.list</a></li>`);
 }
 
 // 生成 Pages 目录页,便于像浏览仓库一样查看全部产物
@@ -46,9 +56,13 @@ const indexHtml = [
     '<title>rules</title>',
     '</head>',
     '<body>',
-    '<h1>rules</h1>',
+    '<h2>clash</h2>',
     '<ul>',
-    ...indexItems,
+    ...htmlClashItems,
+    '</ul>',
+    '<h2>oxidns</h2>',
+    '<ul>',
+    ...htmlOxidnsItems,
     '</ul>',
     '</body>',
     '</html>',
