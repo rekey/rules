@@ -1,0 +1,7 @@
+{
+    "domain": [
+        "rule-custom/cn/domain/*.list"
+    ],
+    "ip": [],
+    "name": "cn_custom"
+}
