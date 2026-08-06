@@ -9,9 +9,11 @@ domain:cloudflare-esni.com
 domain:cloudflare-gateway.com
 domain:cloudflare-quic.com
 domain:cloudflare-terms-of-service-abuse.com
+domain:cloudflare.app
 domain:cloudflare.com
 domain:cloudflare.dev
 domain:cloudflare.net
+domain:cloudflare.pay
 domain:cloudflare.tv
 domain:cloudflareaccess.com
 domain:cloudflareapps.com
