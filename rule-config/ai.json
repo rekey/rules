@@ -1,6 +1,7 @@
 {
     "domain": [
-        "meta-rules-dat/geo/geosite/openai.list"
+        "meta-rules-dat/geo/geosite/openai.list",
+	"rule-custom/ai/domain/*.list"
     ],
     "ip": [],
     "name": "ai"
