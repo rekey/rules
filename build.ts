@@ -35,17 +35,6 @@ for (const ruleFile of ruleFiles) {
     const ruleOxidns: string[] = [];
     const ruleSingDomainSuffix: string[] = [];
     const ruleSingIpCidr: string[] = [];
-    const ruleSing = {
-        version: 4,
-        rules: [
-            {
-                domain_suffix: ruleSingDomainSuffix,
-            },
-            {
-                ip_cidr: ruleSingIpCidr,
-            }
-        ]
-    };
     data.domains.forEach((domain) => {
         ruleClash.push(`DOMAIN-SUFFIX,${domain}`);
         ruleOxidns.push(`domain:${domain}`);
@@ -64,6 +53,22 @@ for (const ruleFile of ruleFiles) {
     await fs.writeFile(ruleDstOxidnsFilePath, ruleOxidns.join('\n'));
     htmlOxidnsItems.push(`    <li><a href="oxidns/${data.name}.list">${data.name}.list</a></li>`);
     // sing
+
+    const ruleSing: { version: number, rules: { domain_suffix?: string[], ip_cidr?: string[] }[] } = {
+        version: 4,
+        rules: [
+        ]
+    };
+    if (ruleSingDomainSuffix.length > 0) {
+        ruleSing.rules.push({
+            domain_suffix: ruleSingDomainSuffix,
+        });
+    }
+    if (ruleSingIpCidr.length > 0) {
+        ruleSing.rules.push({
+            ip_cidr: ruleSingIpCidr,
+        });
+    }
     const ruleDstSingFilePath = path.resolve(ruleDstSingPath, `${data.name}.json`);
     await fs.writeFile(ruleDstSingFilePath, JSON.stringify(ruleSing));
     htmlSingItems.push(`    <li><a href="sing/${data.name}.json">${data.name}.json</a></li>`);
