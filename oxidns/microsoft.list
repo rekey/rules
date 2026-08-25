@@ -85,8 +85,8 @@ domain:officecdn-microsoft-com.akamaized.net
 domain:statics-marketingsites-eas-ms-com.akamaized.net
 domain:statics-marketingsites-eus-ms-com.akamaized.net
 domain:statics-marketingsites-wcus-ms-com.akamaized.net
-domain:prodforza.blob.core.windows.net
 domain:flightsimulator.azureedge.net
+domain:prodforza.blob.core.windows.net
 domain:azure.microsoft.com
 domain:azuremarketplace.microsoft.com
 domain:location.microsoft.com
@@ -404,6 +404,8 @@ domain:xboxplayanywhere.com
 domain:xboxservices.com
 domain:xboxstudios.com
 domain:xbx.lv
+domain:asobostudio.com
+domain:flightsimulator.com
 domain:beth.games
 domain:bethesda.net
 domain:bethesdagamestudios.com
@@ -420,8 +422,6 @@ domain:minecraft.net
 domain:minecraftservices.com
 domain:minecraftshop.com
 domain:mojang.com
-domain:asobostudio.com
-domain:flightsimulator.com
 domain:microsoft.be
 domain:aadrm.com
 domain:azure-api.net
