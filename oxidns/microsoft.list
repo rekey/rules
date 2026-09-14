@@ -85,8 +85,8 @@ domain:officecdn-microsoft-com.akamaized.net
 domain:statics-marketingsites-eas-ms-com.akamaized.net
 domain:statics-marketingsites-eus-ms-com.akamaized.net
 domain:statics-marketingsites-wcus-ms-com.akamaized.net
-domain:prodforza.blob.core.windows.net
 domain:flightsimulator.azureedge.net
+domain:prodforza.blob.core.windows.net
 domain:azure.microsoft.com
 domain:azuremarketplace.microsoft.com
 domain:location.microsoft.com
@@ -410,10 +410,6 @@ domain:xboxplayanywhere.com
 domain:xboxservices.com
 domain:xboxstudios.com
 domain:xbx.lv
-domain:forza.net
-domain:forzamotorsport.net
-domain:forzaracingchampionship.com
-domain:forzarc.com
 domain:callersbane.com
 domain:minecraft-services.net
 domain:minecraft.net
@@ -428,6 +424,10 @@ domain:bethesdagamestudios.com
 domain:bethsoft.com
 domain:doom.com
 domain:elderscrolls.com
+domain:forza.net
+domain:forzamotorsport.net
+domain:forzaracingchampionship.com
+domain:forzarc.com
 domain:microsoft.be
 domain:aadrm.com
 domain:azure-api.net
