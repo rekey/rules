@@ -1,6 +1,7 @@
 {
     "domain": [
-        "meta-rules-dat/geo/geosite/binance.list"
+        "meta-rules-dat/geo/geosite/binance.list",
+        "rule-custom/binance/domain/*.list"
     ],
     "ip": [],
     "name": "binance"
