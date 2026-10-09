@@ -96,6 +96,8 @@ domain:cloudcode-pa.googleapis.com
 domain:cloudsync-prod.s3.amazonaws.com
 domain:configuration-lb.ls-apple.com.akadns.net
 domain:copilot-proxy.githubusercontent.com
+domain:copilot-telemetry-service.githubusercontent.com
+domain:copilot-telemetry.githubusercontent.com
 domain:copilot-workspace.githubnext.com
 domain:copilotprodattachments.blob.core.windows.net
 domain:crl.microsoft.com
@@ -264,6 +266,8 @@ domain:img-prod-cms-rt-microsoft-com.akamaized.net
 domain:img-s-msn-com.akamaized.net
 domain:impala-media-production.s3.amazonaws.com
 domain:imperial.insendi.com
+domain:incoming-telemetry.thunderbird.net
+domain:incoming.telemetry.mozilla.org
 domain:lastfm-img.freetls.fastly.net
 domain:lastfm.freetls.fastly.net
 domain:lazer.ppy.sh
