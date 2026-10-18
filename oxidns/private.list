@@ -6,6 +6,8 @@ domain:www.asusrouter.com
 domain:oasisauth.h3c.com
 domain:routerlogin.com
 domain:www.routerlogin.com
+domain:localhost.weixin.qq.com
+domain:localhost.work.weixin.qq.com
 domain:tplogin.cn
 domain:miwifi.com
 domain:www.miwifi.com
