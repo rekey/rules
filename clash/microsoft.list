@@ -85,7 +85,6 @@ DOMAIN-SUFFIX,officecdn-microsoft-com.akamaized.net
 DOMAIN-SUFFIX,statics-marketingsites-eas-ms-com.akamaized.net
 DOMAIN-SUFFIX,statics-marketingsites-eus-ms-com.akamaized.net
 DOMAIN-SUFFIX,statics-marketingsites-wcus-ms-com.akamaized.net
-DOMAIN-SUFFIX,flightsimulator.azureedge.net
 DOMAIN-SUFFIX,prodforza.blob.core.windows.net
 DOMAIN-SUFFIX,azure.microsoft.com
 DOMAIN-SUFFIX,azuremarketplace.microsoft.com
@@ -130,10 +129,11 @@ DOMAIN-SUFFIX,azure
 DOMAIN-SUFFIX,xbox
 DOMAIN-SUFFIX,onedriveupdater
 DOMAIN-SUFFIX,onedrive
-DOMAIN-SUFFIX,microsoftnews.net
+DOMAIN-SUFFIX,microsoftnews.org
+DOMAIN-SUFFIX,internetexplorer.com
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,microsoft.cz
-DOMAIN-SUFFIX,microsoftnewskids.net
+DOMAIN-SUFFIX,microsoft.de
 DOMAIN-SUFFIX,microsoft.dk
 DOMAIN-SUFFIX,microsoft.ee
 DOMAIN-SUFFIX,microsoft.es
@@ -215,7 +215,7 @@ DOMAIN-SUFFIX,ie9.com
 DOMAIN-SUFFIX,imaginecup.pl
 DOMAIN-SUFFIX,ingads.com
 DOMAIN-SUFFIX,internetexplorer.co
-DOMAIN-SUFFIX,internetexplorer.com
+DOMAIN-SUFFIX,microsoftnewskids.net
 DOMAIN-SUFFIX,intunewiki.com
 DOMAIN-SUFFIX,iotinactionevents.com
 DOMAIN-SUFFIX,kidgrid.tv
@@ -231,7 +231,7 @@ DOMAIN-SUFFIX,managedmeetingrooms.com
 DOMAIN-SUFFIX,meetfasttrack.com
 DOMAIN-SUFFIX,meetyourdevices.com
 DOMAIN-SUFFIX,mepn.com
-DOMAIN-SUFFIX,microsoftedgeinsider.com
+DOMAIN-SUFFIX,microsoftnewskids.com
 DOMAIN-SUFFIX,microsoft-falcon.io
 DOMAIN-SUFFIX,microsoft-int.com
 DOMAIN-SUFFIX,microsoft-ppe.com
@@ -309,7 +309,7 @@ DOMAIN-SUFFIX,powerappscdn.net
 DOMAIN-SUFFIX,powerautomate.com
 DOMAIN-SUFFIX,powerbi.com
 DOMAIN-SUFFIX,powershellgallery.com
-DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,projectmurphy.net
 DOMAIN-SUFFIX,projectsangam.com
 DOMAIN-SUFFIX,pxt.io
 DOMAIN-SUFFIX,s-dc-msedge.net
@@ -335,7 +335,7 @@ DOMAIN-SUFFIX,svc.ms
 DOMAIN-SUFFIX,sway-cdn.com
 DOMAIN-SUFFIX,sway.com
 DOMAIN-SUFFIX,sysinternals.com
-DOMAIN-SUFFIX,t-msedge.net
+DOMAIN-SUFFIX,microsoftnewskids.org
 DOMAIN-SUFFIX,tailwindtraders.com
 DOMAIN-SUFFIX,techhub.ms
 DOMAIN-SUFFIX,tfsallin.net
@@ -364,15 +364,15 @@ DOMAIN-SUFFIX,winhec.net
 DOMAIN-SUFFIX,yammer.com
 DOMAIN-SUFFIX,microsoftnews.cc
 DOMAIN-SUFFIX,microsoftnews.com
+DOMAIN-SUFFIX,microsoftnews.net
 DOMAIN-SUFFIX,microsoft.ch
-DOMAIN-SUFFIX,microsoftnews.org
 DOMAIN-SUFFIX,microsoftnewsforkids.com
 DOMAIN-SUFFIX,microsoftnewsforkids.net
 DOMAIN-SUFFIX,microsoftnewsforkids.org
-DOMAIN-SUFFIX,microsoftnewskids.com
-DOMAIN-SUFFIX,microsoft.de
+DOMAIN-SUFFIX,microsoftedgeinsider.com
 DOMAIN-SUFFIX,microsoft.cl
-DOMAIN-SUFFIX,projectmurphy.net
+DOMAIN-SUFFIX,t-msedge.net
+DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,msnewskids.com
 DOMAIN-SUFFIX,msnewskids.net
 DOMAIN-SUFFIX,msnewskids.org
@@ -385,7 +385,6 @@ DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,sharepoint.cn
 DOMAIN-SUFFIX,livefilestore.com
 DOMAIN-SUFFIX,1drv.com
-DOMAIN-SUFFIX,microsoftnewskids.org
 DOMAIN-SUFFIX,microsoft.by
 DOMAIN-SUFFIX,gamepass.com
 DOMAIN-SUFFIX,orithegame.com
@@ -410,8 +409,6 @@ DOMAIN-SUFFIX,xboxplayanywhere.com
 DOMAIN-SUFFIX,xboxservices.com
 DOMAIN-SUFFIX,xboxstudios.com
 DOMAIN-SUFFIX,xbx.lv
-DOMAIN-SUFFIX,asobostudio.com
-DOMAIN-SUFFIX,flightsimulator.com
 DOMAIN-SUFFIX,beth.games
 DOMAIN-SUFFIX,bethesda.net
 DOMAIN-SUFFIX,bethesdagamestudios.com

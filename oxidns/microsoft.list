@@ -85,7 +85,6 @@ domain:officecdn-microsoft-com.akamaized.net
 domain:statics-marketingsites-eas-ms-com.akamaized.net
 domain:statics-marketingsites-eus-ms-com.akamaized.net
 domain:statics-marketingsites-wcus-ms-com.akamaized.net
-domain:flightsimulator.azureedge.net
 domain:prodforza.blob.core.windows.net
 domain:azure.microsoft.com
 domain:azuremarketplace.microsoft.com
@@ -130,10 +129,11 @@ domain:azure
 domain:xbox
 domain:onedriveupdater
 domain:onedrive
-domain:microsoftnews.net
+domain:microsoftnews.org
+domain:internetexplorer.com
 domain:microsoft.com
 domain:microsoft.cz
-domain:microsoftnewskids.net
+domain:microsoft.de
 domain:microsoft.dk
 domain:microsoft.ee
 domain:microsoft.es
@@ -215,7 +215,7 @@ domain:ie9.com
 domain:imaginecup.pl
 domain:ingads.com
 domain:internetexplorer.co
-domain:internetexplorer.com
+domain:microsoftnewskids.net
 domain:intunewiki.com
 domain:iotinactionevents.com
 domain:kidgrid.tv
@@ -231,7 +231,7 @@ domain:managedmeetingrooms.com
 domain:meetfasttrack.com
 domain:meetyourdevices.com
 domain:mepn.com
-domain:microsoftedgeinsider.com
+domain:microsoftnewskids.com
 domain:microsoft-falcon.io
 domain:microsoft-int.com
 domain:microsoft-ppe.com
@@ -309,7 +309,7 @@ domain:powerappscdn.net
 domain:powerautomate.com
 domain:powerbi.com
 domain:powershellgallery.com
-domain:msn.com
+domain:projectmurphy.net
 domain:projectsangam.com
 domain:pxt.io
 domain:s-dc-msedge.net
@@ -335,7 +335,7 @@ domain:svc.ms
 domain:sway-cdn.com
 domain:sway.com
 domain:sysinternals.com
-domain:t-msedge.net
+domain:microsoftnewskids.org
 domain:tailwindtraders.com
 domain:techhub.ms
 domain:tfsallin.net
@@ -364,15 +364,15 @@ domain:winhec.net
 domain:yammer.com
 domain:microsoftnews.cc
 domain:microsoftnews.com
+domain:microsoftnews.net
 domain:microsoft.ch
-domain:microsoftnews.org
 domain:microsoftnewsforkids.com
 domain:microsoftnewsforkids.net
 domain:microsoftnewsforkids.org
-domain:microsoftnewskids.com
-domain:microsoft.de
+domain:microsoftedgeinsider.com
 domain:microsoft.cl
-domain:projectmurphy.net
+domain:t-msedge.net
+domain:msn.com
 domain:msnewskids.com
 domain:msnewskids.net
 domain:msnewskids.org
@@ -385,7 +385,6 @@ domain:onedrive.com
 domain:sharepoint.cn
 domain:livefilestore.com
 domain:1drv.com
-domain:microsoftnewskids.org
 domain:microsoft.by
 domain:gamepass.com
 domain:orithegame.com
@@ -410,8 +409,6 @@ domain:xboxplayanywhere.com
 domain:xboxservices.com
 domain:xboxstudios.com
 domain:xbx.lv
-domain:asobostudio.com
-domain:flightsimulator.com
 domain:beth.games
 domain:bethesda.net
 domain:bethesdagamestudios.com
