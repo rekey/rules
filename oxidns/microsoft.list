@@ -129,7 +129,7 @@ domain:azure
 domain:xbox
 domain:onedriveupdater
 domain:onedrive
-domain:microsoftnews.org
+domain:microsoftnews.net
 domain:internetexplorer.com
 domain:microsoft.com
 domain:microsoft.cz
@@ -215,7 +215,7 @@ domain:ie9.com
 domain:imaginecup.pl
 domain:ingads.com
 domain:internetexplorer.co
-domain:microsoftnewskids.net
+domain:microsoftnewskids.com
 domain:intunewiki.com
 domain:iotinactionevents.com
 domain:kidgrid.tv
@@ -231,7 +231,7 @@ domain:managedmeetingrooms.com
 domain:meetfasttrack.com
 domain:meetyourdevices.com
 domain:mepn.com
-domain:microsoftnewskids.com
+domain:microsoftnewsforkids.org
 domain:microsoft-falcon.io
 domain:microsoft-int.com
 domain:microsoft-ppe.com
@@ -335,7 +335,7 @@ domain:svc.ms
 domain:sway-cdn.com
 domain:sway.com
 domain:sysinternals.com
-domain:microsoftnewskids.org
+domain:microsoftnewskids.net
 domain:tailwindtraders.com
 domain:techhub.ms
 domain:tfsallin.net
@@ -364,14 +364,14 @@ domain:winhec.net
 domain:yammer.com
 domain:microsoftnews.cc
 domain:microsoftnews.com
-domain:microsoftnews.net
 domain:microsoft.ch
+domain:microsoftnews.org
 domain:microsoftnewsforkids.com
 domain:microsoftnewsforkids.net
-domain:microsoftnewsforkids.org
 domain:microsoftedgeinsider.com
 domain:microsoft.cl
 domain:t-msedge.net
+domain:microsoftnewskids.org
 domain:msn.com
 domain:msnewskids.com
 domain:msnewskids.net

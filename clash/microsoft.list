@@ -129,7 +129,7 @@ DOMAIN-SUFFIX,azure
 DOMAIN-SUFFIX,xbox
 DOMAIN-SUFFIX,onedriveupdater
 DOMAIN-SUFFIX,onedrive
-DOMAIN-SUFFIX,microsoftnews.org
+DOMAIN-SUFFIX,microsoftnews.net
 DOMAIN-SUFFIX,internetexplorer.com
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,microsoft.cz
@@ -215,7 +215,7 @@ DOMAIN-SUFFIX,ie9.com
 DOMAIN-SUFFIX,imaginecup.pl
 DOMAIN-SUFFIX,ingads.com
 DOMAIN-SUFFIX,internetexplorer.co
-DOMAIN-SUFFIX,microsoftnewskids.net
+DOMAIN-SUFFIX,microsoftnewskids.com
 DOMAIN-SUFFIX,intunewiki.com
 DOMAIN-SUFFIX,iotinactionevents.com
 DOMAIN-SUFFIX,kidgrid.tv
@@ -231,7 +231,7 @@ DOMAIN-SUFFIX,managedmeetingrooms.com
 DOMAIN-SUFFIX,meetfasttrack.com
 DOMAIN-SUFFIX,meetyourdevices.com
 DOMAIN-SUFFIX,mepn.com
-DOMAIN-SUFFIX,microsoftnewskids.com
+DOMAIN-SUFFIX,microsoftnewsforkids.org
 DOMAIN-SUFFIX,microsoft-falcon.io
 DOMAIN-SUFFIX,microsoft-int.com
 DOMAIN-SUFFIX,microsoft-ppe.com
@@ -335,7 +335,7 @@ DOMAIN-SUFFIX,svc.ms
 DOMAIN-SUFFIX,sway-cdn.com
 DOMAIN-SUFFIX,sway.com
 DOMAIN-SUFFIX,sysinternals.com
-DOMAIN-SUFFIX,microsoftnewskids.org
+DOMAIN-SUFFIX,microsoftnewskids.net
 DOMAIN-SUFFIX,tailwindtraders.com
 DOMAIN-SUFFIX,techhub.ms
 DOMAIN-SUFFIX,tfsallin.net
@@ -364,14 +364,14 @@ DOMAIN-SUFFIX,winhec.net
 DOMAIN-SUFFIX,yammer.com
 DOMAIN-SUFFIX,microsoftnews.cc
 DOMAIN-SUFFIX,microsoftnews.com
-DOMAIN-SUFFIX,microsoftnews.net
 DOMAIN-SUFFIX,microsoft.ch
+DOMAIN-SUFFIX,microsoftnews.org
 DOMAIN-SUFFIX,microsoftnewsforkids.com
 DOMAIN-SUFFIX,microsoftnewsforkids.net
-DOMAIN-SUFFIX,microsoftnewsforkids.org
 DOMAIN-SUFFIX,microsoftedgeinsider.com
 DOMAIN-SUFFIX,microsoft.cl
 DOMAIN-SUFFIX,t-msedge.net
+DOMAIN-SUFFIX,microsoftnewskids.org
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,msnewskids.com
 DOMAIN-SUFFIX,msnewskids.net
