@@ -71,7 +71,9 @@ domain:visualstudio.co.uk
 domain:microsoftreactor.cn
 domain:microsoftreactor.com.cn
 domain:reactorms.com.cn
+domain:dc.services.visualstudio.com
 domain:download.visualstudio.microsoft.com
+domain:rt.services.visualstudio.com
 domain:crl.microsoft.com
 domain:mscrl.microsoft.com
 domain:ocsp.microsoft.com
@@ -129,8 +131,8 @@ domain:azure
 domain:xbox
 domain:onedriveupdater
 domain:onedrive
-domain:microsoftnews.net
-domain:internetexplorer.com
+domain:microsoftnews.org
+domain:xbox.eu
 domain:microsoft.com
 domain:microsoft.cz
 domain:microsoft.de
@@ -167,9 +169,6 @@ domain:m12.vc
 domain:a-msedge.net
 domain:aka.ms
 domain:ankarazirvesi2018.com
-domain:applicationinsights.io
-domain:applicationinsights.net
-domain:aria.ms
 domain:asp.net
 domain:aspnetcdn.com
 domain:binads.com
@@ -215,7 +214,7 @@ domain:ie9.com
 domain:imaginecup.pl
 domain:ingads.com
 domain:internetexplorer.co
-domain:microsoftnewskids.com
+domain:internetexplorer.com
 domain:intunewiki.com
 domain:iotinactionevents.com
 domain:kidgrid.tv
@@ -231,7 +230,7 @@ domain:managedmeetingrooms.com
 domain:meetfasttrack.com
 domain:meetyourdevices.com
 domain:mepn.com
-domain:microsoftnewsforkids.org
+domain:microsoftedgeinsider.com
 domain:microsoft-falcon.io
 domain:microsoft-int.com
 domain:microsoft-ppe.com
@@ -325,7 +324,7 @@ domain:sharepointonline.com
 domain:signalr.net
 domain:skype.com
 domain:skype.net
-domain:skypeassets.com
+domain:microsoftnewskids.org
 domain:skypeassets.net
 domain:spo-msedge.net
 domain:staffhub.ms
@@ -335,7 +334,7 @@ domain:svc.ms
 domain:sway-cdn.com
 domain:sway.com
 domain:sysinternals.com
-domain:microsoftnewskids.net
+domain:t-msedge.net
 domain:tailwindtraders.com
 domain:techhub.ms
 domain:tfsallin.net
@@ -364,14 +363,14 @@ domain:winhec.net
 domain:yammer.com
 domain:microsoftnews.cc
 domain:microsoftnews.com
+domain:microsoftnews.net
 domain:microsoft.ch
-domain:microsoftnews.org
 domain:microsoftnewsforkids.com
 domain:microsoftnewsforkids.net
-domain:microsoftedgeinsider.com
+domain:microsoftnewsforkids.org
+domain:xboxservices.com
 domain:microsoft.cl
-domain:t-msedge.net
-domain:microsoftnewskids.org
+domain:skypeassets.com
 domain:msn.com
 domain:msnewskids.com
 domain:msnewskids.net
@@ -392,7 +391,7 @@ domain:renovacionxboxlive.com
 domain:tellmewhygame.com
 domain:xbox.co
 domain:xbox.com
-domain:xbox.eu
+domain:microsoftnewskids.net
 domain:xbox.org
 domain:xbox360.co
 domain:xbox360.com
@@ -406,7 +405,7 @@ domain:xboxone.co
 domain:xboxone.com
 domain:xboxone.eu
 domain:xboxplayanywhere.com
-domain:xboxservices.com
+domain:microsoftnewskids.com
 domain:xboxstudios.com
 domain:xbx.lv
 domain:beth.games
@@ -548,6 +547,10 @@ domain:live.com.au
 domain:spoprod-a.akamaihd.net
 domain:skype-edf.akadns.net
 domain:microsoftstore.com.hk
+domain:applicationinsights.io
+domain:applicationinsights.net
+domain:aria.ms
+domain:data.microsoft.com
 domain:dynamics.cn
 domain:engkoo.com
 domain:lync.cn
@@ -581,6 +584,7 @@ domain:powerapps.cn
 domain:powerappsportals.cn
 domain:powerautomate.cn
 domain:powerbi.cn
+domain:telemetry.microsoft.com
 domain:clarity.ms
 domain:microsoftads.com
 domain:msads.net
@@ -679,6 +683,7 @@ domain:chinacloudapi.cn
 domain:chinacloudapp.cn
 domain:chinacloudsites.cn
 domain:hdinsightservices.cn
+domain:in.applicationinsights.azure.com
 domain:management-azure-devices-provisioning.cn
 domain:management-azure-devices.cn
 domain:mcchcdn.com
@@ -718,6 +723,8 @@ domain:azchcdnp.com
 domain:azchcdnq.com
 domain:azchcdnr.com
 domain:azchcdns.com
+domain:dc.applicationinsights.azure.com
+domain:live.applicationinsights.azure.com
 domain:azure-dns.cn
 domain:azure-dns-1.cn
 domain:azure-dns-2.cn
