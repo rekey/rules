@@ -10,6 +10,7 @@ domain:gitee.com
 domain:gitee.io
 domain:copilot-proxy.githubusercontent.com
 domain:copilot-workspace.githubnext.com
+domain:production-copilot-host-westus.webpubsub.azure.com
 domain:copilotprodattachments.blob.core.windows.net
 domain:githubcopilot.com
 domain:copilot-telemetry-service.githubusercontent.com
