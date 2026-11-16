@@ -10,7 +10,7 @@
         "meta-rules-dat/geo/geosite/pornpros.list",
         "meta-rules-dat/geo/geosite/theporndude.list",
         "meta-rules-dat/geo/geosite/youporn.list",
-        "rule-custom/yellow/domain/custom.list"
+        "rule-custom/yellow/domain/*.list"
     ],
     "ip": [],
     "name": "yellow"
